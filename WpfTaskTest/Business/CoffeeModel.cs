@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WpfTaskTest.Business
 {
-    public partial class CoffeeModel
+    public class CoffeeModel
     {
         public bool WithMilk { get; set; }
         public bool WithSugar { get; set; }
