@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ExtensionsStandard">
+      <HintPath>..\..\Libraries\Standard\ExtensionsStandard\bin\Release\netstandard2.0\ExtensionsStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmStandard">
+      <HintPath>..\..\Libraries\Standard\MvvmStandard\bin\Release\netstandard2.0\MvvmStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="ObserverStandard">
+      <HintPath>..\..\Libraries\Standard\ObserverStandard\bin\Release\netstandard2.0\ObserverStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="RandomStandard">
+      <HintPath>..\..\Libraries\Standard\RandomStandard\bin\Release\netstandard2.0\RandomStandard.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
